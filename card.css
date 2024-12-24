@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: wheat;
+}
+
+#board{
+    height: 680px;
+    width: 700px;
+    background-color: red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid lightgrey;
+}
+
+.card{
+    height: 160px;
+    width: 130px;
+    margin: 5px;
+}
+
+#btn{
+    height: 35px;
+    width: 110px;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: lightblue;
+    border: 3px solid black;
+    position: absolute;
+    right: 15%;
+    top: 48%;
+}
